@@ -5,11 +5,11 @@ body {
     margin: 0px;
 }
 
-.top_banner h1 {
-    font-weight: bolder;
+.top_banner .header_welcome {
+    font-size: 50px;
 }
 
-.header_name {
+.top_banner .header_name {
     color: #FFA500;
 }
 
