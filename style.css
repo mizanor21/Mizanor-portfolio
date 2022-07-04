@@ -15,11 +15,12 @@ body {
 
 section {
     display: flex;
+    padding: 80px;
 }
 
 .half_width {
     width: 50%;
-    padding: 20px 100px;
+    padding: 0px 100px;
 }
 
 .half_width p {
@@ -42,4 +43,10 @@ section {
 .top_banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.dream_big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
