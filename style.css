@@ -1,0 +1,45 @@
+body {
+    font-family: 'Gentium Book Plus', serif;
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    margin: 0px;
+}
+
+.top_banner h1 {
+    font-weight: bolder;
+}
+
+.header_name {
+    color: #FFA500;
+}
+
+section {
+    display: flex;
+}
+
+.half_width {
+    width: 50%;
+    padding: 20px 100px;
+}
+
+.half_width p {
+    text-align: justify;
+}
+
+.half_width img {
+    width: 100%;
+}
+
+.half_width .link_button {
+    text-decoration: none;
+    color: white;
+    background-color: #FFA500;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.top_banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
